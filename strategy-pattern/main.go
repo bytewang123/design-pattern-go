@@ -8,6 +8,7 @@ func main() {
 			"rocket duck",
 		},
 	}
+	d.setFlyBehaviour(&flyWithSonicRocketPower{})
 	doAction(d)
 }
 
